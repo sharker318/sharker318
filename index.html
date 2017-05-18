@@ -1,285 +1,922 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title></title>
-
+    <title>Title</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="snail.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
 </head>
-<body>
-        <!--------------头部内容------------------->
-   <header>
-       <div class="contianer">
-            <div id="top-header">
-                <div class="col-md-6">
-                    <img src="images/city-position.png" alt=""/>
-                    房屋所在的城市&nbsp;
-                    <span id="city-select">长沙</span>
-                </div>
-                <div class="col-md-6 text-right">
-        <!--------------登录与注册------------------->            
-                    <a href="">登录</a>&nbsp;
-                    <a href="">注册</a>
+<div id="header-tab">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <strong>oWo</strong>
+                <a href="section04.html">联系我们</a>
+                <a href="section03.html">服务特业</a>
+                <a href="section02.html">服务介绍</a>
+                <a href="section01.html">关于我们</a>
+                <a href="index.html" style="border-top:0.3rem solid #59CAAA;
+    color:#59CAAA;">首页</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------轮播图--------------------------->
+<div id="rolling-element">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="imgs/index/yq0KX1ZvfFWAO9zQAAgJmP6O_Uk570.jpg" alt="...">
+                <div class="carousel-caption">
+                    <h1>一条龙家装服务</h1><br>
+                    <span style="background-color:#1ABC9C;font-size:1.3em;">为您提出独特、合理、有效的设计方案</span>
                 </div>
             </div>
-           <div id="middle-header">
-               <div>
-               <!---------logo图片--------->
-                   <div class="col-md-3">
-                       <img src="images/logo.jpg" alt="" height="80px">
-                   </div>
-                   <ul class="col-md-9">
-                       <li><a href="">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
-                       <li><a href="">甄选套餐</a></li>
-                       <li><a href="">设计案例</a></li>
-                       <li><a href="">设计师团队</a></li>
-                       <li><a href="">关于我们</a></li>
-                       <li><a href="">联系我们</a></li>
-               </ul>
-               </div>
-           </div>
-       </div>
-       <!--------------------轮播图------------------------>
-       <div>
-           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-               <!-- Indicators -->
-               <ol class="carousel-indicators">
-                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-               </ol>
-               <!-- Wrapper for slides -->
-               <div class="carousel-inner" role="listbox">
-                   <div class="item active">
-                       <img src="images/8cedf9e24c6b5852b0deaca921a69672.jpg" alt="...">
-                       <div class="carousel-caption">
-                       </div>
-                   </div>
-                   <div class="item">
-                       <img src="images/b70d3887e68725e76802b4bfec2337d9.jpg" alt="...">
-                       <div class="carousel-caption">
-                       </div>
-                   </div>
-                   <div class="item">
-                       <img src="images/8a76cfdd1b08ee3e82af29650f8f7776.jpg" alt="...">
-                       <div class="carousel-caption">
-                       </div>
-                   </div>
-               </div>
+            <div class="item">
+                <img src="imgs/index/yq0KXFZve16AQDiFAAOZ73d3gCQ161.jpg" alt="...">
+                <div class="carousel-caption">
+                    <h1>创意、美观、独特、合理、有效</h1><br>
+                    <span style="background-color:#1ABC9C;font-size:1.3em;">为您提出独特、合理、有效的设计方案</span>
+                </div>
+            </div>
+            <div class="item">
+                <img src="imgs/index/yq0KXFZve5aAIs8WAAcuLj965tc036.jpg" alt="...">
+                <div class="carousel-caption">
+                    <h1>高水平多风格的设计</h1><br>
+                    <span style="background-color:#1ABC9C;font-size:1.3em;">为您提出独特、合理、有效的设计方案</span>
+                </div>
+            </div>
+        </div>
 
-               <!-- Controls -->
-               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                   <span class="sr-only">Previous</span>
-               </a>
-               <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                   <span class="sr-only">Next</span>
-               </a>
-           </div>
-       </div>
-    </header>
-        <!------------------展示板块------------------------>
-    <div id="tab001">
-        <div>
-            <img src="images/001/tyg1.jpg" alt=""/>
-            <div class="do001">
-                <h3>时尚简约风</h3>
-                <b class="lines"></b>
-                <p>人物标签：小资/时尚/知性/自信</p>
-                <p>人群定位：自信时尚熟女/暖男</p>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<div class="container" id="container001">
+    <div class="row">
+        <h2><span>服务项目</span></h2>
+        <p><span>网络咨询、量房、预算、报价等一条龙智能服务、让装修设计、施工选材售后服务等</span><br>
+        <span>装修环节一步到位</span></p>
+    </div>
+</div>
+<div id="container002">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <a href="" class="svg001">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392"
+                    width="40%" stroke="#fff" stroke-width="1em">
+                        <path fill="#fff" d="M 1664 596 q 0 -81 -21.5 -143 t -55 -98.5 t -81.5 -59.5 t -94 -31
+                        t -98 -8 t -112 25.5 t -110.5 64 t -86.5 72 t -60 61.5 q -18 22 -49 22 t -49 -22 q -24
+                        -28 -60 -61.5 t -86.5 -72 t -110.5 -64 t -112 -25.5 t -98 8 t -94 31 t -81.5 59.5 t -55
+                         98.5 t -21.5 143 q 0 168 187 355 l 581 560 l 580 -559 q 188 -188 188 -356 Z m 128 0 q 0
+                         221 -229 450 l -623 600 q -18 18 -44 18 t -44 -18 l -624 -602 q -10 -8 -27.5 -26 t -55.5
+                          -65.5 t -68 -97.5 t -53.5 -121 t -23.5 -138 q 0 -220 127 -344 t 351 -124 q 62 0 126.5 21.5
+                           t 120 58 t 95.5 68.5 t 76 68 q 36 -36 76 -68 t 95.5 -68.5 t 120 -58 t 126.5 -21.5 q 224 0
+                            351 124 t 127 344 Z"></path>
+                    </svg>
+                </a>
+                <h3><span>房屋测量</span></h3>
+                <div class="lines"></div>
+                <p><span>一个炫酷的网站才配的上创业者的新潮创意微企</span><br>
+                    <span>点采用HTML5最新技术拥有大气舒适的界面和众</span><br>
+                    <span>多精美模版</span></p>
             </div>
-            <div class="do002">
-                <div>
-                    <h2>时尚简约风</h2>
-                    <p>[62m^2]一居室</p>
-                </div>
-                <b></b>
-                <div>
-                    <p>人物标签：小资/时尚/知性/自信</p>
-                    <p>人群定位：自信时尚熟女/暖男</p>
-                </div>
-                <div>
-                    <a>查看详情</a>
-                </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                        <path fill="#fff" d="M 1728 992 v -832 q 0 -13 -9.5 -22.5 t -22.5 -9.5 h -1600 q
+                        -13 0 -22.5 9.5 t -9.5 22.5 v 832 q 0 13 9.5 22.5 t 22.5 9.5 h 1600 q 13 0 22.5 -9.5
+                         t 9.5 -22.5 Z m 128 -832 v 1088 q 0 66 -47 113 t -113 47 h -544 q 0 37 16 77.5 t 32
+                          71 t 16 43.5 q 0 26 -19 45 t -45 19 h -512 q -26 0 -45 -19 t -19 -45 q 0 -14 16 -44
+                           t 32 -70 t 16 -78 h -544 q -66 0 -113 -47 t -47 -113 v -1088 q 0 -66 47 -113 t 113
+                            -47 h 1600 q 66 0 113 47 t 47 113 Z"></path>
+                    </svg>
+                </a>
+                <h3><span>设计方案</span></h3>
+                <div class="lines"></div>
+                <p><span>一个炫酷的网站才配的上创业者的新潮创意微企</span><br>
+                    <span>点采用HTML5最新技术拥有大气舒适的界面和众</span><br>
+                    <span>多精美模版</span></p>
             </div>
-        </div>
-        <div>
-            <img src="images/001/tyg2.jpg" alt=""/>
-            <div class="do001">
-                <h3>回归原生态</h3>
-                <b></b>
-                <p>人物标签：烂漫/温馨/热爱生活</p>
-                <p>人群定位：年轻80后三口之家</p>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                        <path fill="#fff" d="M 1600 1405 q 0 120 -73 189.5 t -194 69.5 h -874
+                         q -121 0 -194 -69.5 t -73 -189.5 q 0 -53 3.5 -103.5 t 14 -109 t 26.5
+                          -108.5 t 43 -97.5 t 62 -81 t 85.5 -53.5 t 111.5 -20 q 9 0 42 21.5 t
+                           74.5 48 t 108 48 t 133.5 21.5 t 133.5 -21.5 t 108 -48 t 74.5 -48 t
+                            42 -21.5 q 61 0 111.5 20 t 85.5 53.5 t 62 81 t 43 97.5 t 26.5 108.5
+                             t 14 109 t 3.5 103.5 Z m -320 -893 q 0 159 -112.5 271.5 t -271.5 112.5
+                              t -271.5 -112.5 t -112.5 -271.5 t 112.5 -271.5 t 271.5 -112.5 t 271.5
+                              112.5 t 112.5 271.5 Z"></path>
+                    </svg>
+                </a>
+                <h3><span>装修施工</span></h3>
+                <div class="lines"></div>
+                <p><span>一个炫酷的网站才配的上创业者的新潮创意微企</span><br>
+                    <span>点采用HTML5最新技术拥有大气舒适的界面和众</span><br>
+                    <span>多精美模版</span></p>
             </div>
-            <div class="do002">
-                <div>
-                    <h2>回归原生态</h2>
-                    <p>[85m^2]两居室</p>
-                </div>
-                <b></b>
-                <div>
-                    <p>人物标签：烂漫/温馨/热爱生活</p>
-                    <p>人群定位：年轻80后三口之家</p>
-                </div>
-                <div>
-                    <a>查看详情</a>
-                </div>
-            </div>
-        </div>
-        <div>
-            <img src="images/001/tyg3.jpg" alt=""/>
-            <div class="do001">
-                <h3>摩登轻古典</h3>
-                <b></b>
-                <p>人物标签：小资/时尚/知性/自信</p>
-                <p>人群定位：自信时尚熟女/暖男</p>
-            </div>
-            <div class="do002">
-                <div>
-                    <h2>摩登轻古典</h2>
-                    <p>[125m^2]三居室</p>
-                </div>
-                <b></b>
-                <div>
-                    <p>人物标签：小资/时尚/知性/自信</p>
-                    <p>人群定位：自信时尚熟女/暖男</p>
-                </div>
-                <div>
-                    <p>查看详情</p>
-                </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                        <path fill="#fff" d="M 1671 566 q 0 40 -28 68 l -724 724 l -136 136 q
+                         -28 28 -68 28 t -68 -28 l -136 -136 l -362 -362 q -28 -28 -28 -68 t 28
+                          -68 l 136 -136 q 28 -28 68 -28 t 68 28 l 294 295 l 656 -657 q 28 -28
+                           68 -28 t 68 28 l 136 136 q 28 28 28 68 Z"></path>
+                    </svg>
+                </a>
+                <h3><span>房屋改造</span></h3>
+                <div class="lines"></div>
+                <p><span>一个炫酷的网站才配的上创业者的新潮创意微企</span><br>
+                    <span>点采用HTML5最新技术拥有大气舒适的界面和众</span><br>
+                    <span>多精美模版</span></p>
             </div>
         </div>
     </div>
-    <div id="tab002">
-        <div class="container">
-            <a class="col-md-4">
-                <img src="images/mt1.png" alt=""/><br/>
-                <strong style="color:#0076ff">百度家装贷</strong><br/>
-                <span>0首付0抵押&nbsp;15秒授信</span>
-            </a>
-            <a class="col-md-4">
-                <img src="images/mt2.png" alt=""/><br/>
-                <strong style="color:#FF6E00">滴滴出行</strong><br/>
-                <span>免费接送看展厅</span>
-            </a>
-            <a class="col-md-4">
-                <img src="images/mt3.png" alt=""/><br/>
-                <strong style="color:#FF452B">特权定金</strong><br/>
-                <span>1元抵300优惠券</span>
-            </a>
-        </div>
-    </div>
-    <div id="tab003">
-        <h1>经典案例</h1>
-        <a href="">查看更多&gt;&gt;</a>
-        <div class="row" id="tab_option">
-            <a value="tab_select_01" href="" class="col-md-2">现代简约</a>
-            <a value="tab_select_02" href="" class="col-md-2">欧式</a>
-            <a value="tab_select_03" href="" class="col-md-2">美式</a>
-            <a value="tab_select_04" href="" class="col-md-2">中式</a>
-            <a value="tab_select_05" href="" class="col-md-2">地中海</a>
-        </div>
-        <ul id="tab_select_01" class="show">
-            <li>
-                <img src="images/tab003/01/9ac8e80152dc58082836c170e70c1fb9.jpg" alt=""/>
-            </li>
-            <li>
-                <img src="images/tab003/01/46fb8994cd860dc946dd0c7a1bc722e5.jpg" alt=""/>
-            </li>
-            <li>
-                <img src="images/tab003/01/81bbbf3f35ffa6ddbadd8440b89c17ba.jpg" alt=""/>
-            </li>
-            <li>
-                <img src="images/tab003/01/22464e09f2222ade27452ee94642a7e1.jpg" alt=""/>
-            </li>
-            <li>
-                <img src="images/tab003/01/22464e09f2222ade27452ee94642a7e1.jpg" alt=""/>
-            </li>
-            <li>
-                <img src="images/tab003/01/22464e09f2222ade27452ee94642a7e1.jpg" alt=""/>
-            </li>
-        </ul>
-        <ul id="tab_select_02" class="hide">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <ul id="tab_select_03" class="hide">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <ul id="tab_select_04" class="hide">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <ul id="tab_select_05" class="hide">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
-    <div id="tab004">
-        <h1>装修头条</h1>
-        <a href="">查看更多&gt;&gt;</a>
-        <div>
+</div>
+<div class="container" id="container003">
+    <div class="row">
+        <h2><span>服务承诺</span></h2>
+        <p><span>通过有现代意识的管理人员，高水品多风格的设计师群体，技艺精湛、训练有素的施工队伍，严禁负责的专职监理和具有</span><br>
+        <span>奉献精神的客户服务团队，组成了一个先进和完善的集约体系</span></p>
+        <div class="col-md-4 col-sm-8 col-xs-12 col-md-offset-4 col-sm-offset-2">
             <div>
-                <em>01</em><br/>
-                <h3>准备阶段</h3><br/>
-                <b></b>
-                <p>
-                    <a href="">交房</a>
-                    <a href="">收房验房</a>
-                    <a href="">装修合同</a>
-                    <a href="">预算费用</a>
-                </p>
+                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#fff" d="M 1664 960 q -152 -236 -381 -353 q 61 104 61 225 q 0 185 -131.5 316.5 t -316.5 131.5 t -316.5 -131.5 t -131.5 -316.5 q 0 -121 61 -225 q -229 117 -381 353 q 133 205 333.5 326.5 t 434.5 121.5 t 434.5 -121.5 t 333.5 -326.5 Z m -720 -384 q 0 -20 -14 -34 t -34 -14 q -125 0 -214.5 89.5 t -89.5 214.5 q 0 20 14 34 t 34 14 t 34 -14 t 14 -34 q 0 -86 61 -147 t 147 -61 q 20 0 34 -14 t 14 -34 Z m 848 384 q 0 34 -20 69 q -140 230 -376.5 368.5 t -499.5 138.5 t -499.5 -139 t -376.5 -368 q -20 -35 -20 -69 t 20 -69 q 140 -229 376.5 -368 t 499.5 -139 t 499.5 139 t 376.5 368 q 20 35 20 69 Z"></path>
+                </svg>
             </div>
-            <img src="images/tab004/new.png" alt=""/>
             <div>
-                <em>02</em><br/>
-                <h3>准备阶段</h3><br/>
-                <b></b>
-                <p>
-                    <a href="">交房</a>
-                    <a href="">收房验房</a>
-                    <a href="">装修合同</a>
-                    <a href="">预算费用</a>
-                </p>
+                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#fff" d="M 896 0 q 182 0 348 71 t 286 191 t 191 286 t 71 348 t -71 348 t -191 286 t -286 191 t -348 71 t -348 -71 t -286 -191 t -191 -286 t -71 -348 t 71 -348 t 191 -286 t 286 -191 t 348 -71 Z m 0 128 q -190 0 -361 90 l 194 194 q 82 -28 167 -28 t 167 28 l 194 -194 q -171 -90 -361 -90 Z m -678 1129 l 194 -194 q -28 -82 -28 -167 t 28 -167 l -194 -194 q -90 171 -90 361 t 90 361 Z m 678 407 q 190 0 361 -90 l -194 -194 q -82 28 -167 28 t -167 -28 l -194 194 q 171 90 361 90 Z m 0 -384 q 159 0 271.5 -112.5 t 112.5 -271.5 t -112.5 -271.5 t -271.5 -112.5 t -271.5 112.5 t -112.5 271.5 t 112.5 271.5 t 271.5 112.5 Z m 484 -217 l 194 194 q 90 -171 90 -361 t -90 -361 l -194 194 q 28 82 28 167 t -28 167 Z"></path>
+                </svg>
             </div>
-            <img src="images/tab004/new.png" alt=""/>
             <div>
-                <em>03</em><br/>
-                <h3>准备阶段</h3><br/>
-                <b></b>
-                <p>
-                    <a href="">交房</a>
-                    <a href="">收房验房</a>
-                    <a href="">装修合同</a>
-                    <a href="">预算费用</a>
-                </p>
+                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#fff" d="M 1856 1152 q 0 159 -112.5 271.5 t -271.5 112.5 h -1088 q -185 0 -316.5 -131.5 t -131.5 -316.5 q 0 -132 71 -241.5 t 187 -163.5 q -2 -28 -2 -43 q 0 -212 150 -362 t 362 -150 q 158 0 286.5 88 t 187.5 230 q 70 -62 166 -62 q 106 0 181 75 t 75 181 q 0 75 -41 138 q 129 30 213 134.5 t 84 239.5 Z"></path>
+                </svg>
             </div>
         </div>
     </div>
+</div>
+<div id="container004">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h2><span>微家居，匠心打造，非同凡响</span></h2>
+                <div class="lines"></div>
+                <p><span>一条龙服务</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" id="container005">
+    <div class="row">
+        <h2><span>精选类型</span></h2>
+        <p><span>我们关注当代的建筑设计、室内环艺、环境文化问题</span><br>
+            <span>并希望通过超前的理念，专业的技术为您提出独特、合理、有效的设计方案</span></p>
+    </div>
+</div>
+<div class="container" id="container006">
+    <div class="row">
+        <div class="col-md-6 col-sm-4 col-xs-12">
+            <h4>&nbsp;&nbsp;装修类型&nbsp;<a href="">&gt;&gt;</a></h4>
+        </div>
+        <ul class="col-md-6 col-sm-8 col-xs-12" id="tabs">
+            <li class="col-md-3 col-sm-3 col-xs-6"><a href="#lists01" class="clicked">个人精装</a></li>
+            <li class="col-md-3 col-sm-3 col-xs-6"><a href="#lists02">企业装饰</a></li>
+            <li class="col-md-3 col-sm-3 col-xs-6"><a href="#lists03">酒店装潢</a></li>
+            <li class="col-md-3 col-sm-3 col-xs-6"><a href="#lists04">学校装修</a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <ul class="col-md-12 col-sm-12 col-xs-12 lists show" id="lists01">
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/gr03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                        <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/gr03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/gr04.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/gr03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/gr04.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/gr03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+        </ul>
+        <ul class="col-md-12 col-sm-12 col-xs-12 lists hide" id="lists02">
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/qy02.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/qy02.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/qy02.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/qy07.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/qy07.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/qy07.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+        </ul>
+        <ul class="col-md-12 col-sm-12 col-xs-12 lists hide" id="lists03">
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/jd03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/jd03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/jd03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/jd07.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/jd07.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/jd07.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+        </ul>
+        <ul class="col-md-12 col-sm-12 col-xs-12 lists hide" id="lists04">
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/xx02.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/xx02.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/xx02.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+            <img src="images/xx03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/xx03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+            <li class="col-md-4 col-sm-6 col-xs-12">
+                <img src="images/xx03.jpg" alt="">
+                <div class="cover01">
+                    <p><span>适合人群：单身、独立、青年男女</span></p>
+                </div>
+                <div class="cover02">
+                    <p><span>户型：一室一厅</span></p>
+                    <h4><span>面积：75-90m^2</span></h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="container007">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#16A085" d="M 352 1280 q -66 0 -113 -47 t -47 -113 v -704 q 0 -66 47
+                     -113 t 113 -47 h 1088 q 66 0 113 47 t 47 113 v 704 q 0 66 -47 113 t -113 47 h
+                      -1088 Z m -32 -864 v 704 q 0 13 9.5 22.5 t 22.5 9.5 h 1088 q 13 0 22.5 -9.5
+                       t 9.5 -22.5 v -704 q 0 -13 -9.5 -22.5 t -22.5 -9.5 h -1088 q -13 0 -22.5 9.5
+                        t -9.5 22.5 Z m 1376 928 h 160 v 96 q 0 40 -47 68 t -113 28 h -1600 q -66 0
+                        -113 -28 t -47 -68 v -96 h 1760 Z m -720 96 q 16 0 16 -16 t -16 -16 h -160
+                        q -16 0 -16 16 t 16 16 h 160 Z"></path>
+                </svg>
+                <div class="lines"></div>
+                <h1><span>567</span></h1>
+                <p>HTMLPAGES</p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#16A085" d="M 1152 896 q 0 106 -75 181 t -181 75 t -181 -75 t -75 -181 t 75 -181
+                     t 181 -75 t 181 75 t 75 181 Z m 128 0 q 0 -159 -112.5 -271.5 t -271.5 -112.5 t -271.5 112.5
+                      t -112.5 271.5 t 112.5 271.5 t 271.5 112.5 t 271.5 -112.5 t 112.5 -271.5 Z m 128 0 q 0 212
+                       -150 362 t -362 150 t -362 -150 t -150 -362 t 150 -362 t 362 -150 t 362 150 t 150 362 Z m
+                        128 0 q 0 -130 -51 -248.5 t -136.5 -204 t -204 -136.5 t -248.5 -51 t -248.5 51 t -204 136.5
+                         t -136.5 204 t -51 248.5 t 51 248.5 t 136.5 204 t 204 136.5 t 248.5 51 t 248.5 -51 t 204
+                          -136.5 t 136.5 -204 t 51 -248.5 Z m 128 0 q 0 209 -103 385.5 t -279.5 279.5 t -385.5 103
+                           t -385.5 -103 t -279.5 -279.5 t -103 -385.5 t 103 -385.5 t 279.5 -279.5 t 385.5 -103 t
+                           385.5 103 t 279.5 279.5 t 103 385.5 Z"></path>
+                </svg>
+                <div class="lines"></div>
+                <h1><span>534</span></h1>
+                <p>FOLLOWERS</p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#16A085" d="M 896 1523 q -20 0 -93 -73.5 t -73 -93.5 q 0 -32 62.5 -54
+                     t 103.5 -22 t 103.5 22 t 62.5 54 q 0 20 -73 93.5 t -93 73.5 Z m 270 -271 q -2
+                      0 -40 -25 t -101.5 -50 t -128.5 -25 t -128.5 25 t -101 50 t -40.5 25 q -18 0
+                       -93.5 -75 t -75.5 -93 q 0 -13 10 -23 q 78 -77 196 -121 t 233 -44 t 233 44 t
+                        196 121 q 10 10 10 23 q 0 18 -75.5 93 t -93.5 75 Z m 273 -272 q -11 0 -23
+                        -8 q -136 -105 -252 -154.5 t -268 -49.5 q -85 0 -170.5 22 t -149 53 t -113.5
+                         62 t -79 53 t -31 22 q -17 0 -92 -75 t -75 -93 q 0 -12 10 -22 q 132 -132 320
+                          -205 t 380 -73 t 380 73 t 320 205 q 10 10 10 22 q 0 18 -75 93 t -92 75 Z m
+                          271 -271 q -11 0 -22 -9 q -179 -157 -371.5 -236.5 t -420.5 -79.5 t -420.5
+                          79.5 t -371.5 236.5 q -11 9 -22 9 q -17 0 -92.5 -75 t -75.5 -93 q 0 -13 10
+                           -23 q 187 -186 445 -288 t 527 -102 t 527 102 t 445 288 q 10 10 10 23 q 0
+                           18 -75.5 93 t -92.5 75 Z"></path>
+                </svg>
+                <div class="lines"></div>
+                <h1><span>97</span></h1>
+                <p>SEO GOALS</p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#16A085" d="M 216 1169 l 603 402 v -359 l -334 -223 Z m -62 -144 l 193 -129
+                     l -193 -129 v 258 Z m 819 546 l 603 -402 l -269 -180 l -334 223 v 359 Z m -77 -493
+                     l 272 -182 l -272 -182 l -272 182 Z m -411 -275 l 334 -223 v -359 l -603 402 Z m 960
+                      93 l 193 129 v -258 Z m -138 -93 l 269 -180 l -603 -402 v 359 Z m 485 -180 v 546 q
+                      0 41 -34 64 l -819 546 q -21 13 -43 13 t -43 -13 l -819 -546 q -34 -23 -34 -64 v -546
+                       q 0 -41 34 -64 l 819 -546 q 21 -13 43 -13 t 43 13 l 819 546 q 34 23 34 64 Z"></path>
+                </svg>
+                <div class="lines"></div>
+                <h1><span>134</span></h1>
+                <p>HTML PAGE</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="container022">
+    <div class="container">
+        <div id="row">
+            <div class="col-md-12 col-sm-12 col-sm-12">
+                <h2>公司资讯</h2>
+            </div>
+            <div class="col-md-4 col-sm-4 col-sm-12">
+                <h4>
+                    <span>oWo快讯</span><small><a href="">更多&gt;&gt;</a></small>
+                </h4>
+                <ul>
+                    <li><a href=""><span>幸福特权 悦享品质 | oWo2017年度消费者特权会议</span><small>05-11</small></a></li>
+                    <li><a href=""><span>年度特权 联动感恩丨oWo特权日 悦享定制家装优化</span><small>05-04</small></a></li>
+                    <li><a href=""><span>悦享幸福家│oWo2017年度【消费者协议订制】</span><small>05-01</small></a></li>
+                    <li><a href=""><span>oWo欧标工程丨2017【欧标工艺擂台赛初赛】</span><small>04-30</small></a></li>
+                    <li><a href=""><span>谁与争锋 | oWo2017【欧标工艺擂台赛决赛】</span><small>04-25</small></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-4 col-sm-12">
+                <h4>
+                    <span>工地报道</span><small><a href="">更多&gt;&gt;</a></small>
+                </h4>
+                <ul>
+                    <li><a href=""><span>用心打造良心工程| oWo2017【消费者特权日】</span><small>05-11</small></a></li>
+                    <li><a href=""><span>匠人之心 始于点滴 | oWo特权日工地巡检</span><small>05-04</small></a></li>
+                    <li><a href=""><span>oWo欧标工程PK赛工地巡展⑤</span><small>05-01</small></a></li>
+                    <li><a href=""><span>oWo欧标工程PK赛工地巡展④</span><small>04-30</small></a></li>
+                    <li><a href=""><span>oWo欧标工程PK赛工地巡展③</span><small>04-25</small></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-4 col-sm-12">
+                <h4>
+                    <span>装修知识</span><small><a href="">更多&gt;&gt;</a></small>
+                </h4>
+                <ul>
+                    <li><a href=""><span>oWo家装：六藏六露 巧妙设计家居环境</span><small>05-11</small></a></li>
+                    <li><a href=""><span>oWo家装：装修门窗选材有绝招！</span><small>05-04</small></a></li>
+                    <li><a href=""><span>oWo家装：灯具保养的五种实用方法</span><small>05-01</small></a></li>
+                    <li><a href=""><span>oWo家装：你可以不懂装修，但不能不懂验</span><small>04-30</small></a></li>
+                    <li><a href=""><span>oWo家装：厨房装修你必须知道的8大必杀</span><small>04-25</small></a></li>
+                </ul>
+            </div>
+        </div>
+        <div></div>
+    </div>
+</div>
+
+<div id="container008">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h2><span>服务特色</span></h2>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div style="background-image:url(imgs/index/yq0KXFZvwymAFNRwAABiJ5LGjr8416.jpg)" class="svg_box01">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                            <path fill="#999" d="M 1596 380 q 28 28 48 76 t 20 88 v 1152 q 0 40 -28 68 t -68
+                             28 h -1344 q -40 0 -68 -28 t -28 -68 v -1600 q 0 -40 28 -68 t 68 -28 h 896 q 40
+                              0 88 20 t 76 48 Z m -444 -244 v 376 h 376 q -10 -29 -22 -41 l -313 -313 q -12
+                              -12 -41 -22 Z m 384 1528 v -1024 h -416 q -40 0 -68 -28 t -28 -68 v -416 h -768
+                               v 1536 h 1280 Z"></path>
+                        </svg>
+                        <p><span>技术精湛的施</span></p>
+                    </div>
+                </div>
+                <h3>严格按照“施工要求”</h3>
+                <p>admin/News</p>
+                <div class="lines"></div>
+                <p><span>拥有大气舒适的界面和众多精美</span><br>
+                    <span>模板用微企点制作一个高逼格高</span><br>
+                    <span>颜值的炫酷网站让您的创业项目</span></p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div style="background-image:url(imgs/index/yq0KXFZvwymAFNRwAABiJ5LGjr8416.jpg)"  class="svg_box01">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                            <path fill="#999" d="M 1280 704 q 0 -26 -19 -45 t -45 -19 t -45 19 l -147 146 v -293
+                             q 0 -26 -19 -45 t -45 -19 t -45 19 t -19 45 v 293 l -147 -146 q -19 -19 -45 -19 t
+                             -45 19 t -19 45 t 19 45 l 256 256 q 19 19 45 19 t 45 -19 l 256 -256 q 19 -19 19 -45
+                              Z m -640 832 q 0 53 -37.5 90.5 t -90.5 37.5 t -90.5 -37.5 t -37.5 -90.5 t 37.5 -90.5
+                               t 90.5 -37.5 t 90.5 37.5 t 37.5 90.5 Z m 896 0 q 0 53 -37.5 90.5 t -90.5 37.5 t
+                               -90.5 -37.5 t -37.5 -90.5 t 37.5 -90.5 t 90.5 -37.5 t 90.5 37.5 t 37.5 90.5 Z m 128
+                                -1088 v 512 q 0 24 -16 42.5 t -41 21.5 l -1044 122 q 1 7 4.5 21.5 t 6 26.5 t 2.5 22
+                                 q 0 16 -24 64 h 920 q 26 0 45 19 t 19 45 t -19 45 t -45 19 h -1024 q -26 0 -45 -19
+                                  t -19 -45 q 0 -14 11 -39.5 t 29.5 -59.5 t 20.5 -38 l -177 -823 h -204 q -26 0 -45
+                                   -19 t -19 -45 t 19 -45 t 45 -19 h 256 q 16 0 28.5 6.5 t 20 15.5 t 13 24.5 t 7.5
+                                   26.5 t 5.5 29.5 t 4.5 25.5 h 1201 q 26 0 45 19 t 19 45 Z"></path>
+                        </svg>
+                        <p><span>独具韵味的配</span></p>
+                    </div>
+                </div>
+                <h3>创意、美观、独特</h3>
+                <p>admin/News</p>
+                <div class="lines"></div>
+                <p><span>拥有大气舒适的界面和众多精美</span><br>
+                    <span>模板用微企点制作一个高逼格高</span><br>
+                    <span>颜值的炫酷网站让您的创业项目</span></p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div style="background-image:url(imgs/index/yq0KXFZvwymAFNRwAABiJ5LGjr8416.jpg);"  class="svg_box01">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                            <path fill="#999" d="M 1408 768 q 0 139 -94 257 t -256.5 186.5 t -353.5 68.5 q -86
+                             0 -176 -16 q -124 88 -278 128 q -36 9 -86 16 h -3 q -11 0 -20.5 -8 t -11.5 -21 q -1
+                              -3 -1 -6.5 t 0.5 -6.5 t 2 -6 l 2.5 -5 l 3.5 -5.5 l 4 -5 l 4.5 -5 l 4 -4.5 q 5 -6 23
+                               -25 t 26 -29.5 t 22.5 -29 t 25 -38.5 t 20.5 -44 q -124 -72 -195 -177 t -71 -224 q
+                                0 -139 94 -257 t 256.5 -186.5 t 353.5 -68.5 t 353.5 68.5 t 256.5 186.5 t 94 257
+                                Z m 384 256 q 0 120 -71 224.5 t -195 176.5 q 10 24 20.5 44 t 25 38.5 t 22.5 29 t
+                                 26 29.5 t 23 25 q 1 1 4 4.5 t 4.5 5 t 4 5 t 3.5 5.5 l 2.5 5 l 2 6 l 0.5 6.5 l -1
+                                  6.5 q -3 14 -13 22 t -22 7 q -50 -7 -86 -16 q -154 -40 -278 -128 q -90 16 -176
+                                  16 q -271 0 -472 -132 q 58 4 88 4 q 161 0 309 -45 t 264 -129 q 125 -92 192 -212
+                                   t 67 -254 q 0 -77 -23 -152 q 129 71 204 178 t 75 230 Z"></path>
+                        </svg>
+                        <p><span>高水平多风格</span></p>
+                    </div>
+                </div>
+                <h3>一条龙家装服务</h3>
+                <p>admin/News</p>
+                <div class="lines"></div>
+                <p><span>拥有大气舒适的界面和众多精美</span><br>
+                    <span>模板用微企点制作一个高逼格高</span><br>
+                    <span>颜值的炫酷网站让您的创业项目</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="container021">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h2><span class="lines" width="30%"></span>
+                    <strong>精英设计师团队</strong>
+                    <span class="lines"  width="30%"></span></h2>
+                <h4><span>精选设计团队，快来看看我们设计专家</span></h4>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div style="border:0.2em solid #59CAAA; margin:2% auto;overflow:hidden;position:relative;" >
+                    <div><a href=""><img src="images/rw03.jpg" style="width:80%;margin-bottom:5%;" class="img-circle"/></a></div>
+                    <div style="background-color:#ddd;height:1rem;width:60%;margin:1rem auto;"></div>
+                    <div style="margin:2% auto;">
+                        <span style="font-size:1.4em;">刘凯</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>优秀设计师</span>
+                    </div>
+                    <div style="margin:4% auto;">
+                        <span>经验:</span>&nbsp;<span style="color:#EA5404;">8年</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>代表作：3件</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div style="border:0.2em solid #59CAAA; margin:2% auto;overflow:hidden;position:relative;" >
+                    <div><a href=""><img src="images/rw03.jpg" style="width:80%;margin-bottom:5%;" class="img-circle"/></a></div>
+                    <div style="background-color:#ddd;height:1rem;width:60%;margin:1rem auto;"></div>
+                    <div style="margin:2% auto;">
+                        <span style="font-size:1.4em;">刘凯</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>优秀设计师</span>
+                    </div>
+                    <div style="margin:4% auto;">
+                        <span>经验:</span>&nbsp;<span style="color:#EA5404;">8年</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>代表作：3件</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div style="border:0.2em solid #59CAAA; margin:2% auto;overflow:hidden;position:relative;" >
+                    <div><a href=""><img src="images/rw03.jpg" style="width:80%;margin-bottom:5%;" class="img-circle"/></a></div>
+                    <div style="background-color:#ddd;height:1rem;width:60%;margin:1rem auto;"></div>
+                    <div style="margin:2% auto;">
+                        <span style="font-size:1.4em;">刘凯</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>优秀设计师</span>
+                    </div>
+                    <div style="margin:4% auto;">
+                        <span>经验:</span>&nbsp;<span style="color:#EA5404;">8年</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>代表作：3件</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div style="border:0.2em solid #59CAAA; margin:2% auto;overflow:hidden;position:relative;" >
+                    <div><a href=""><img src="images/rw03.jpg" style="width:80%;margin-bottom:5%;" class="img-circle"/></a></div>
+                    <div style="background-color:#ddd;height:1rem;width:60%;margin:1rem auto;"></div>
+                    <div style="margin:2% auto;">
+                        <span style="font-size:1.4em;">刘凯</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>优秀设计师</span>
+                    </div>
+                    <div style="margin:4% auto;">
+                        <span>经验:</span>&nbsp;<span style="color:#EA5404;">8年</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>代表作：3件</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div style="border:0.2em solid #59CAAA; margin:2% auto;overflow:hidden;position:relative;" >
+                    <div><a href=""><img src="images/rw04.jpg" style="width:80%;margin-bottom:5%;" class="img-circle"/></a></div>
+                    <div style="background-color:#ddd;height:1rem;width:60%;margin:1rem auto;"></div>
+                    <div style="margin:2% auto;">
+                        <span style="font-size:1.4em;">刘凯</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>优秀设计师</span>
+                    </div>
+                    <div style="margin:4% auto;">
+                        <span>经验:</span>&nbsp;<span style="color:#EA5404;">8年</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>代表作：3件</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div style="border:0.2em solid #59CAAA; margin:2% auto;overflow:hidden;position:relative;" >
+                    <div><a href=""><img src="images/rw04.jpg" style="width:80%;margin-bottom:5%;" class="img-circle"/></a></div>
+                    <div style="background-color:#ddd;height:1rem;width:60%;margin:1rem auto;"></div>
+                    <div style="margin:2% auto;">
+                        <span style="font-size:1.4em;">刘凯</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>优秀设计师</span>
+                    </div>
+                    <div style="margin:4% auto;">
+                        <span>经验:</span>&nbsp;<span style="color:#EA5404;">8年</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>代表作：3件</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div style="border:0.2em solid #59CAAA; margin:2% auto;overflow:hidden;position:relative;" >
+                    <div><a href=""><img src="images/rw04.jpg" style="width:80%;margin-bottom:5%;" class="img-circle"/></a></div>
+                    <div style="background-color:#ddd;height:1rem;width:60%;margin:1rem auto;"></div>
+                    <div style="margin:2% auto;">
+                        <span style="font-size:1.4em;">刘凯</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>优秀设计师</span>
+                    </div>
+                    <div style="margin:4% auto;">
+                        <span>经验:</span>&nbsp;<span style="color:#EA5404;">8年</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>代表作：3件</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div style="border:0.2em solid #59CAAA; margin:2% auto;overflow:hidden;position:relative;" >
+                    <div><a href=""><img src="images/rw04.jpg" style="width:80%;margin-bottom:5%;" class="img-circle"/></a></div>
+                    <div style="background-color:#ddd;height:1rem;width:60%;margin:1rem auto;"></div>
+                    <div style="margin:2% auto;">
+                        <span style="font-size:1.4em;">刘凯</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>优秀设计师</span>
+                    </div>
+                    <div style="margin:4% auto;">
+                        <span>经验:</span>&nbsp;<span style="color:#EA5404;">8年</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>代表作：3件</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" id="container009">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <h3><span>联系我们</span></h3>
+            <h5><span>推出了网络咨询、量房、预算、报价、等一条龙免费服务，让装修设计、施工选材售后服务等装修环节一步到位</span></h5>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <input type="text" value="姓名" style="display:block;width:80%;float:left;"><br>
+            <input type="text" value="地址" style="display:block;width:80%;float:left;"><br>
+            <input type="text" value="电话" style="display:block;width:80%;float:left;"><br>
+            <!--<input type="text" value="详情" id="text"><br>-->
+            <textarea name="" id="" cols="70" rows="4" style="margin:1% 0;text-decoration:none;font-size:1.4em;display:block;width:80%;float:left;color:A9A9BB;">详情</textarea>
+            <input type="submit" value="提交" class="btn btn-success" id="submit" style="float:left;width:35%;">
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#fff" d="M 1024 544 v 448 q 0 14 -9 23 t -23 9 h -320 q -14 0 -23 -9 t -9
+                     -23 v -64 q 0 -14 9 -23 t 23 -9 h 224 v -352 q 0 -14 9 -23 t 23 -9 h 64 q 14 0 23 9 t
+                      9 23 Z m 416 352 q 0 -148 -73 -273 t -198 -198 t -273 -73 t -273 73 t -198 198 t -73
+                       273 t 73 273 t 198 198 t 273 73 t 273 -73 t 198 -198 t 73 -273 Z m 224 0 q 0 209 -103
+                        385.5 t -279.5 279.5 t -385.5 103 t -385.5 -103 t -279.5 -279.5 t -103 -385.5 t 103
+                         -385.5 t 279.5 -279.5 t 385.5 -103 t 385.5 103 t 279.5 279.5 t 103 385.5 Z"></path>
+                </svg>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#fff" d="M 896 0 q 182 0 348 71 t 286 191 t 191 286 t 71 348 t -71 348 t -191
+                     286 t -286 191 t -348 71 t -348 -71 t -286 -191 t -191 -286 t -71 -348 t 71 -348 t 191
+                     -286 t 286 -191 t 348 -71 Z m 0 128 q -190 0 -361 90 l 194 194 q 82 -28 167 -28 t 167 28
+                      l 194 -194 q -171 -90 -361 -90 Z m -678 1129 l 194 -194 q -28 -82 -28 -167 t 28 -167 l
+                      -194 -194 q -90 171 -90 361 t 90 361 Z m 678 407 q 190 0 361 -90 l -194 -194 q -82 28
+                      -167 28 t -167 -28 l -194 194 q 171 90 361 90 Z m 0 -384 q 159 0 271.5 -112.5 t 112.5
+                      -271.5 t -112.5 -271.5 t -271.5 -112.5 t -271.5 112.5 t -112.5 271.5 t 112.5 271.5 t 271.5
+                       112.5 Z m 484 -217 l 194 194 q 90 -171 90 -361 t -90 -361 l -194 194 q 28 82 28 167 t -28
+                        167 Z"></path>
+                </svg>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                    <path fill="#fff" d="M 1664 1504 v -768 q -32 36 -69 66 q -268 206 -426 338 q -51 43 -83 67
+                     t -86.5 48.5 t -102.5 24.5 h -2 q -48 0 -102.5 -24.5 t -86.5 -48.5 t -83 -67 q -158 -132 -426
+                      -338 q -37 -30 -69 -66 v 768 q 0 13 9.5 22.5 t 22.5 9.5 h 1472 q 13 0 22.5 -9.5 t 9.5 -22.5
+                       Z m 0 -1051 v -24.5 l -0.5 -13 l -3 -12.5 l -5.5 -9 l -9 -7.5 l -14 -2.5 h -1472 q -13 0
+                        -22.5 9.5 t -9.5 22.5 q 0 168 147 284 q 193 152 401 317 q 6 5 35 29.5 t 46 37.5 t 44.5
+                         31.5 t 50.5 27.5 t 43 9 h 2 q 20 0 43 -9 t 50.5 -27.5 t 44.5 -31.5 t 46 -37.5 t 35 -29.5
+                          q 208 -165 401 -317 q 54 -43 100.5 -115.5 t 46.5 -131.5 Z m 128 -37 v 1088 q 0 66 -47
+                          113 t -113 47 h -1472 q -66 0 -113 -47 t -47 -113 v -1088 q 0 -66 47 -113 t 113 -47 h
+                          1472 q 66 0 113 47 t 47 113 Z"></path>
+                </svg>
+            </div>
+            <p>我们关注当代的建筑设计、室内环艺、环境文化问题，并希望通过超前的理念，
+                专业的技术为您提出独特、合理、有效的设计方案</p>
+            <div class="lines"></div>
+            <p>网址：www.wqdian.com</p>
+            <p>电话：+86 10 81234567</p>
+            <p>E-mail：support@wqdian.com</p>
+        </div>
+    </div>
+</div>
+<div id="container010">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+                <p>Copyright © 2016 wqdian.com All Rights Reserved 微企点版权所有 京ICP备15027496号-1</p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                        <path fill="#999" d="M 1349.8 1029.1 l -3.1 -16.5 l -2.4 -8.4 l -2.4 -9.1 l -3.2 -8.6 l -3.2 -9.6 l -3.7 -9 l -4 -9.3 l -7.3 -15.1 l -6.4 -13.4 l -6.3 -11.8 l -5.6 -11.2 l -6.4 -10.1 l -4.7 -9.3 l -9.9 -13.9 l -12.5 -18.5 l -2.9 -4.6 l -0.9 -1.9 v -1.5 l 2 -6.3 l 3 -5.5 l 2.5 -11 l 1.4 -5.7 V 813 l 0.7 -4.8 v -4.7 l -0.7 -5.4 l -0.9 -4.4 l -1.8 -9 l -2.4 -8.8 l -2.2 -8 l -3.3 -7.9 l -3.9 -6.4 l -3 -6.2 l -3.4 -5.8 l -5.3 -8.6 l -1.9 -3.1 l -0.6 -2.6 l -2.4 -16.7 l -1.6 -10.9 l -1.8 -13.6 l -2.7 -14.1 l -4.4 -16 l -2.5 -9.1 l -1.9 -7.6 l -2.8 -8.9 l -3.1 -9.5 l -3 -8.7 l -3.9 -9.4 l -8 -18.2 l -4.8 -8.6 l -5.7 -9.9 l -5.3 -8.5 l -5.4 -9.5 l -7.5 -8.9 l -6.5 -8.6 l -7.8 -8.9 l -7.9 -8.1 l -8 -7.7 l -9.5 -8.1 l -4.9 -2.9 l -4.7 -4.1 l -10.3 -7 l -11.8 -7.7 l -12.1 -6.9 l -12.5 -6.2 l -13.6 -5.8 l -12.8 -5.4 l -13.3 -4.7 l -14.7 -3.9 l -13.3 -3.4 l -14.1 -3.1 l -13.4 -3.2 l -14.5 -1.5 l -14.2 -1.7 l -14.1 -1.8 h -14.6 h -14.1 h -13.7 l -14.3 0.8 l -13.5 1.9 l -13.4 1.7 l -13.6 2.3 l -13.5 2.5 l -12.7 3.1 l -12.9 4 l -11.8 4 l -11.9 3.9 l -11.9 5.7 l -11.3 4.6 l -9.9 5.5 l -10.4 6.3 l -9.6 6.5 l -9.5 7.3 l -7.8 6.8 l -12.2 11.3 l -10.1 10.4 l -9.7 10.1 l -8.9 10.3 l -8.4 10.6 l -7.3 10.2 l -7.1 10.3 l -3.3 4.6 l -3.1 5.5 l -6.6 9.8 l -5.3 9.7 l -4.7 9.1 l -4.1 9.7 l -4 9 l -3.3 8.3 l -3.1 8.9 l -3.1 8.1 l -4.1 14.9 l -3 14.3 l -1.7 11.9 l -1.7 10.3 v 7.9 v 6.4 v 5.7 l -2.9 3.1 l -2.6 4.1 l -2.1 3.8 l -1.8 4 l -2.2 8.8 l -2.5 8 l -0.8 7.2 l -0.6 5.3 v 5.7 l -5.7 8.1 l -4.1 8 l -3 7.8 l -2.3 6.9 l -1.7 6.7 l -1.7 6.2 v 5.3 v 5.8 v 4.9 l 1 3.9 l 1.4 7.1 l 1.8 5.4 l -3.2 2.4 l -8.9 6.5 l -11.8 10.5 l -7.3 6.3 l -7 6.1 l -4.9 4.8 l -4 4.3 l -8.6 9 l -8.2 9.1 l -6.4 7.8 l -7.6 11.2 l -7.4 10.1 l -7.2 11.3 l -6.1 10.4 l -5 11.2 l -5.4 10.2 l -3.9 10.1 l -4.2 10.6 l -3 10.2 l -3.1 10.6 l -2.6 9.2 l -1.6 9.8 l -1.6 9.2 l -1.4 8.9 L 438 1076 v 16 v 7.3 l 0.9 7 l 2.3 12.1 l 0.7 5.3 l 1.6 5.4 l 1.8 5.1 l 1.7 3.6 l 2.7 6.7 l 2.1 1.4 l 1.3 2.8 l 1.6 0.6 h 1 h 0.7 l 7.1 -0.6 l 7.2 -1.8 l 6.1 -2.4 l 6.4 -4 l 5.8 -3.8 l 5.3 -4.8 l 5.7 -5.2 l 4.9 -5.2 l 4.5 -6 l 4.2 -5.4 l 3.9 -4.4 l 2.5 -5.2 l 4.7 -8.5 l 1.5 -3.4 l 0.8 -2.1 l 0.4 -2.3 l 1.2 -2 l 0.8 -0.5 l 1.7 -0.8 h 1 l 0.4 0.8 h 0.8 l 0.8 0.5 l 2.7 11.5 l 2.9 9.3 l 3.9 9.7 l 3.9 8.8 l 3.3 8.7 l 5 7.6 l 3.8 8.1 l 4.1 7.4 l 4.8 6.3 l 3.7 6.2 l 9.7 11.4 l 8.5 10.1 l 8.1 7.9 l 8.1 7.1 l 7 5.5 l 10.4 9.1 l 4.2 1.9 l 1.3 2 v 0.9 l -0.9 0.8 h -0.4 l -2.1 0.7 l -7.9 0.6 l -7.2 0.9 l -6.1 0.9 l -6.4 1.4 l -5.5 1.7 l -5.5 1.6 l -4.9 2.5 l -3.9 2.4 l -4.9 1.6 l -3 2.4 l -3.3 1.9 l -3.5 2.8 l -4.4 5.4 l -1.7 2.6 l -2.1 2.1 l -2.8 5.7 l -1.5 4.8 l -1.8 4.7 l -0.4 4.2 v 5.4 v 2.3 l -0.8 3.9 v 3.9 l -1 3.9 v 3.5 l 1 3.7 l 0.8 3.3 l 2.2 6.6 l 1.5 3 l 2 3.1 l 2.2 3 l 2.4 2.7 l 3.1 3.1 l 2.4 2.4 l 7.1 5.2 l 7.1 4.3 l 8.2 3.9 l 8.7 3.4 l 9.3 3.8 l 10.3 2.3 l 10.3 3.4 l 11.1 2.2 l 11.1 1.6 l 11.4 1.7 l 11.7 1.7 l 23.3 2.4 l 24 0.4 h 22.1 h 10.4 h 9.9 l 10.4 -0.4 l 8.9 -1 l 8.6 -0.7 l 8.1 -0.7 l 12.9 -2.5 l 9.3 -2.5 l 8.9 -2.2 l 16.3 -6.7 l 7.5 -2.8 l 7 -3.4 l 11.7 -6.4 l 10.5 -5.2 l 7.8 -4.8 l 5.7 -5.2 l 8.9 1 l 6.9 0.7 l 13.6 1 h 6.4 h 5.4 l 4.1 0.8 l 4.3 1.7 l 6.7 2.4 l 7.4 2.4 l 14.2 4.3 l 14.5 5.2 l 14.1 4 l 14.2 2.8 l 14.5 3.6 l 15 2.1 l 14.3 1.5 l 14.3 1.9 l 13.4 1.3 l 14.3 0.8 h 13.7 h 13.3 h 12.6 l 12.9 -1.5 l 12.5 -0.6 l 12.1 -1.9 l 11 -2.4 l 11.1 -2.3 l 10.7 -2.5 l 4.4 -1.3 l 4.9 -1.5 l 9.3 -3.6 l 8.3 -3.7 l 7.7 -3.9 l 7.2 -4.1 l 6.4 -4.7 l 2.5 -2.5 l 3.1 -3.4 l 3.8 -4.7 l 4.2 -5.7 l 1.6 -2.9 l 0.6 -2.3 l 1.8 -3.1 l 0.7 -3.3 v -3.2 l 0.9 -3.2 l -0.9 -4.7 l -0.7 -4.1 l -1.8 -4.7 l -1.3 -3.9 l -2.7 -4.7 l -3.2 -4.2 l -3 -3.8 l -4.2 -3.2 l -8.5 -7.2 l -9.5 -7 l -9.7 -5.5 l -10.1 -5.7 l -23.2 -11.1 l -5.5 -3.3 l -1.5 -1.6 l -1 -1 l 11.1 -10.9 l 4.9 -5.5 l 4 -4.9 l 7.8 -11 l 7.3 -11.3 l 6.2 -9.9 l 5.9 -9.7 l 7.9 -19.1 l 6.1 -15.9 l 4 -11.3 l 2.4 -3.7 l 1.4 -3.1 l 2.5 -1.8 h 0.9 l 0.8 0.4 l 5.9 11.5 l 5.3 11.2 l 3.7 6.2 l 3.9 5.4 l 3.9 6.7 l 4.9 6.5 l 4.2 4.6 l 2.5 2.4 l 2.4 2.3 l 2.3 1.7 l 2.2 1.5 l 4.7 2.4 l 2.5 0.8 h 1.6 h 2.3 l 2.5 -0.8 l 3.1 -1.6 l 3.4 -1.5 l 2.9 -2.5 l 2.7 -2.9 l 3 -3.6 l 2.4 -2.8 l 2.7 -4.5 l 2 -3.6 l 2.4 -5.1 l 1.3 -4.3 l 3.4 -10.5 l 2.2 -11.7 l 1.6 -12.9 l 1.2 -7.5 v -6.2 v -6.7 v -8.2 l -1.7 -15 L 1349.8 1029.1 Z M 896 0 C 401.2 0 0 401.2 0 896 s 401.2 896 896 896 s 896 -401.2 896 -896 S 1390.8 0 896 0 Z M 896 1743.3 C 428.1 1743.3 48.7 1364 48.7 896 S 428.1 48.7 896 48.7 S 1743.3 428 1743.3 896 S 1363.9 1743.3 896 1743.3 Z"></path>
+                    </svg></li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                            <path fill="#999" d="M 896 0 C 401.2 0 0 401.2 0 896 s 401.2 896 896 896 s 896 -401.2 896 -896 S 1390.8 0 896 0 Z M 896 1743.3 C 428.1 1743.3 48.7 1364 48.7 896 S 428.1 48.7 896 48.7 S 1743.3 428 1743.3 896 S 1363.9 1743.3 896 1743.3 Z M 1072.3 735.8 c 11.4 0 22.7 0.8 34 2.1 c -30.5 -142 -182.4 -247.7 -355.8 -247.7 c -193.8 0 -352.6 132.1 -352.6 299.9 c 0 96.9 52.8 176.4 141.1 238.1 l -35.3 106.1 l 123.2 -61.8 c 44.1 8.8 79.5 17.7 123.5 17.7 c 11.1 0 22.1 -0.6 32.9 -1.4 c -7 -23.6 -10.9 -48.2 -10.9 -73.9 C 772.5 860.8 904.8 735.8 1072.3 735.8 Z M 882.7 640.2 c 26.5 0 44.1 17.4 44.1 44 c 0 26.4 -17.6 44.1 -44.1 44.1 c -26.4 0 -53 -17.7 -53 -44.1 C 829.8 657.7 856.3 640.2 882.7 640.2 Z M 636 728.3 c -26.4 0 -53.1 -17.7 -53.1 -44.1 c 0 -26.5 26.7 -44 53.1 -44 c 26.4 0 44 17.4 44 44 C 680 710.6 662.4 728.3 636 728.3 Z M 1094.6 754.7 c -167.8 0 -299.9 114.9 -299.9 255.9 c 0 141.2 132.2 255.8 299.9 255.8 c 35.1 0 70.5 -8.9 105.8 -17.6 l 96.8 53 l -26.5 -88.1 c 70.8 -53 123.4 -123.5 123.4 -203 C 1394.1 869.6 1253.1 754.7 1094.6 754.7 Z M 997.4 966.5 c -17.6 0 -35.3 -17.4 -35.3 -35.2 c 0 -17.6 17.7 -35.3 35.3 -35.3 c 26.7 0 44.1 17.6 44.1 35.3 S 1024.1 966.5 997.4 966.5 Z M 1191.4 966.5 c -17.5 0 -35.1 -17.4 -35.1 -35.2 c 0 -17.6 17.6 -35.3 35.1 -35.3 c 26.4 0 44.1 17.6 44.1 35.3 S 1217.8 966.5 1191.4 966.5 Z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                            <path fill="#999" d="M 896 0 C 401.2 0 0 401.2 0 896 s 401.2 896 896 896 s 896 -401.2 896 -896 S 1390.8 0 896 0 Z M 896 1743.3 C 428.1 1743.3 48.7 1364 48.7 896 S 428.1 48.7 896 48.7 S 1743.3 428 1743.3 896 S 1363.9 1743.3 896 1743.3 Z M 1135.8 885.4 c -38.8 -7.5 -19.9 -28.3 -19.9 -28.3 s 38 -62.5 -7.5 -108 c -56.3 -56.3 -193.1 7.2 -193.1 7.2 c -52.3 16.2 -38.4 -7.4 -31 -47.6 c 0 -47.3 -16.2 -127.5 -155.5 -80.2 c -139.1 47.6 -258.5 214.4 -258.5 214.4 c -83 110.8 -72.1 196.5 -72.1 196.5 c 20.7 189.1 221.7 241 377.9 253.2 c 164.4 12.9 386.3 -56.7 453.6 -199.6 C 1296.9 949.9 1174.7 893.2 1135.8 885.4 Z M 788.3 1239.3 c -163.2 7.6 -295.2 -74.1 -295.2 -183.1 s 131.9 -196.4 295.2 -204 c 163.3 -7.5 295.5 59.7 295.5 168.6 S 951.6 1231.9 788.3 1239.3 Z M 755.7 924 c -164.1 19.2 -145.2 173 -145.2 173 s -1.7 48.7 44 73.5 c 96.1 52 195 20.5 244.9 -44 C 949.4 1061.9 920.1 905 755.7 924 Z M 714.3 1139.8 c -30.7 3.6 -55.4 -14.1 -55.4 -39.7 c 0 -25.5 21.9 -52.3 52.6 -55.5 c 35.2 -3.4 58.1 16.9 58.1 42.5 C 769.7 1112.7 744.9 1136.3 714.3 1139.8 Z M 811.1 1057.4 c -10.4 7.7 -23.2 6.7 -28.6 -2.6 c -5.7 -9.1 -3.6 -23.6 6.9 -31.2 c 12.1 -9.1 24.8 -6.5 30.3 2.6 C 825.2 1035.4 821.3 1049.4 811.1 1057.4 Z M 1215.7 818.9 c 13.1 0 24.4 -9.8 26.3 -22.5 c 0.2 -1 0.4 -1.8 0.4 -2.9 c 20.1 -180.2 -147.7 -149.2 -147.7 -149.2 c -14.9 0 -26.9 12.1 -26.9 27.1 c 0 14.8 11.9 26.8 26.9 26.8 c 120.4 -26.6 93.8 93.9 93.8 93.9 C 1188.7 807 1200.7 818.9 1215.7 818.9 Z M 1196.2 504.3 c -58 -13.6 -117.7 -1.9 -134.4 1.4 c -1.3 0.1 -2.5 1.4 -3.7 1.6 c -0.6 0.1 -0.9 0.7 -0.9 0.7 c -16.4 4.7 -28.5 19.9 -28.5 38 c 0 21.5 17.4 39.1 39.1 39.1 c 0 0 21.1 -2.8 35.5 -8.4 c 14.1 -5.7 134.4 -4.3 194 95.9 c 32.6 73.1 14.3 122.1 12.1 129.9 c 0 0 -7.7 19 -7.7 37.7 c 0 21.6 17.4 35.2 39 35.2 c 18 0 33.2 -2.5 37.6 -33 h 0.2 C 1442.4 628.8 1300 528.5 1196.2 504.3 Z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                            <path fill="#999" d="M 896 0 C 401.2 0 0 401.2 0 896 s 401.2 896 896 896 s 896 -401.2 896 -896 S 1390.8 0 896 0 Z M 896 1743.3 C 428.1 1743.3 48.7 1364 48.7 896 S 428.1 48.7 896 48.7 S 1743.3 428 1743.3 896 S 1363.9 1743.3 896 1743.3 Z M 1400.5 763.4 h -114.3 H 1092 l -45.7 -81.4 L 920.6 440.4 c -11.5 0 -11.5 0 -22.9 0 L 783.5 681.9 l -45.7 81.4 H 543.5 H 380.2 v 5.2 l 64.5 45.7 l 180.8 160.1 l -41.1 365.9 c 0 11.4 2.4 11.4 25.2 11.4 l 298.3 -182.9 l 297.7 182.9 c 11.4 0 11.7 0 23.2 -11.4 l -57 -365.9 l 171.5 -147.1 l 68.6 -55.6 C 1411.8 760.2 1411.8 763.4 1400.5 763.4 Z M 657.7 1122.3 L 989 852.2 l -308.5 -52.9 H 1149 L 863.3 1058 l 297.1 64.3 H 657.7 Z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 2392 2392">
+                            <path fill="#999" d="M 896 0 C 401.2 0 0 401.2 0 896 s 401.2 896 896 896 s 896 -401.2 896 -896 S 1390.8 0 896 0 Z M 896 1743.3 C 428.1 1743.3 48.7 1364 48.7 896 S 428.1 48.7 896 48.7 S 1743.3 428 1743.3 896 S 1363.9 1743.3 896 1743.3 Z M 781.7 711.5 c 58.1 0 104.9 -66.7 104.9 -149.3 c 0 -82.5 -46.9 -149.2 -104.9 -149.2 c -57.9 0 -104.9 66.7 -104.9 149.2 C 676.9 644.8 723.9 711.5 781.7 711.5 Z M 586.8 922 c 105.1 -22.5 90.7 -148.1 87.6 -175.5 c -5.1 -42.3 -54.9 -116.2 -122.5 -110.4 c -85.1 7.6 -97.4 130.4 -97.4 130.4 C 443 823.3 482 944.6 586.8 922 Z M 1221.6 706.4 c -92.6 0 -105 85.3 -105 145.6 c 0 57.5 4.9 137.8 119.9 135.2 c 115 -2.5 102.5 -130.3 102.5 -160.4 C 1339 796.7 1314.1 706.4 1221.6 706.4 Z M 1031.6 721.4 c 77.5 10.1 127.4 -72.7 137.3 -135.4 c 10.1 -62.6 -39.9 -135.4 -94.8 -147.9 c -55 -12.6 -123.7 75.5 -130 132.9 C 936.7 641.3 954.3 711.4 1031.6 721.4 Z M 698.4 1140.3 c -3.1 8.8 -10 31.4 -4 51.1 c 11.7 44 50 46 50 46 h 55 V 1103 h -58.9 C 714 1110.9 701.2 1131.5 698.4 1140.3 Z M 1221.6 1090.1 c 0 0 -120 -92.8 -190 -193.1 c -94.9 -147.9 -229.8 -87.7 -274.9 -12.5 c -44.9 75.2 -114.9 122.8 -124.8 135.4 c -10.1 12.4 -144.9 85.2 -115 218.1 c 29.9 132.8 135 130.3 135 130.3 s 77.5 7.6 167.4 -12.5 c 89.9 -20 167.3 5 167.3 5 s 210 70.3 267.5 -65.1 C 1311.5 1160.3 1221.6 1090.1 1221.6 1090.1 Z M 862.3 1291.6 H 725.7 c -58.9 -11.8 -82.4 -52 -85.4 -58.9 c -2.9 -7 -19.6 -39.3 -10.8 -94.3 c 25.4 -82.4 98.1 -88.4 98.1 -88.4 h 72.8 v -89.3 l 61.9 0.9 V 1291.6 Z M 1116.6 1290.6 H 959.5 c -60.9 -15.7 -63.8 -58.9 -63.8 -58.9 V 1058 l 63.8 -1 v 156.2 c 3.9 16.6 24.6 19.6 24.6 19.6 h 64.7 V 1058 h 67.8 V 1290.6 Z"></path>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="right-fix">
+    <a href="f03"><span class="glyphicon glyphicon-comment"></span>在线咨询</a>
+    <a href="f01"><span class="glyphicon glyphicon-phone-alt"></span>预约装修</a>
+    <a href="f02"><span class="glyphicon glyphicon-calendar"></span>装修报价</a>
+    <a href="#"><span class="glyphicon glyphicon-chevron-up"></span>回到顶部</a>
+</div>
+<div id="f01" class="hide">
+    <div class="container">
+        <p><strong>预约提交</strong><a>×</a></p>
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <h5>您的称呼:</h5>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <input type="text" placeholder="请输入您的称呼"/>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <h5>手机号码:</h5>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <input type="text" placeholder="请输入您的手机号码"/>
+            </div>
+            <div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-4" style="float:right;">
+                <button class="btn btn-block btn-success">立刻预约</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="f02" class="hide">
+    <div class="container">
+        <div id="tab_list">
+            <a href="f0201">免费设计</a>
+            <a href="f0202">免费报价</a>
+        </div>
+        <div class="row">
+            <div id="f0201" class="hide">
+                <h1>0元设计免费抢</h1>
+                <p><small>专业设计师为您量身定制</small></p>
+                <div><span>您的称呼</span><input type="text" placeholder="请输入您的称呼"/></div>
+                <div><span>手机号码</span><input type="text" placeholder="请输入您的手机号码"/></div>
+                <div><button class="btn btn-info STOP">稍后领取</button><button class="btn btn-success">抢先领取</button></div>
+            </div>
+            <div id="f0202" class="show">
+                <h1>免费获取装修报价</h1>
+                <p><small>已有&nbsp;<b>35212</b>&nbsp;位业主获取了装修报价</small></p>
+                <div><span>房屋面积</span><input type="text" placeholder="请输入您房屋的面积"/></div>
+                <div><span>手机号码</span><input type="text" placeholder="请输入您的手机号码"/></div>
+                <div><button class="btn btn-info STOP">稍后领取</button><button class="btn btn-success">抢先领取</button></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="chart">
+    <div>
+
+    </div>
+</div>
 
 
-
-    <script src="js/jquery-1.11.3.js"></script>
-    <script src="js/snail.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
 </body>
 </html>

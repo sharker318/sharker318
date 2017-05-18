@@ -1,0 +1,142 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:#666;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+img {
+    vertical-align:middle;
+}
+.lines{
+    width:5rem;
+    border:0.2em solid white;
+    margin:4% auto;
+}
+#header-tab{
+    position:fixed;
+    z-index:999;
+    border:0.1rem solid #ddd;
+    background-color:#fff;
+    width:100%;
+    height:6rem;
+}
+#header-tab>div{
+    margin:0 auto;
+}
+#header-tab>div>div>div>a{
+    float:right;
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    line-height:6rem;
+    padding:0 2%;
+    text-decoration:none;
+    font-size:1.2rem;
+    color:black;
+    border-top:0.3rem solid transparent;
+}
+#header-tab>div>div>div>a:hover{
+    border-top:0.3rem solid #59CAAA;
+    color:#59CAAA;
+}
+#header-tab>div>div>div>strong{
+    float:left;
+    vertical-align:middle;
+    line-height:6rem;
+    padding:0 2%;
+    font-size:4rem;
+    color:black;
+    text-decoration:none;
+}
+#container001{
+    background-image:url(../images/rw05.jpg);
+    background-size:100%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    padding-top:6rem;
+}
+#container001>div{
+   background-color:rgba(0,0,0,.4);
+}
+#container001>div>div>div{
+    margin:18% auto;
+}
+#container001 strong{
+    font-size:4rem;
+    margin:1% auto;
+    display:inline-block;
+}
+#container001 p{
+    font-size:1rem;
+    margin:0.2% auto;
+}
+#container002{
+    text-align:center;
+    padding:5% 0;
+}
+#container002 h2{
+    margin:5% auto;
+}
+#container002 p{
+    font-size:1.3rem;
+    margin:1% auto;
+}
+#container003 img{
+    width:100%;
+}
+#container003 h4{
+    text-align:center;
+    margin:2% auto;
+}
+#container003 h4>span{
+    color:#000;
+    font-size:3rem;
+}
+#container003>div{
+    margin:4% auto;
+}
+#container003>div>div>div>div{
+    margin:1% 0;
+    overflow:hidden;
+    cursor:pointer;
+}
+#container003>div>div>div>div>img:hover{
+    transition: all 1s ease;
+    transform:scale(1.2,1.2);
+}
+#container004{
+    color:#000;
+}
+#container004 p{
+    font-size:1.5rem;
+    margin:1rem auto;
+}
+#container004 h2{
+    margin:1rem auto;
+}
+#container010{
+    background-color:#363636;
+}
+#container010 ul{
+    list-style:none;
+}
+#container010 ul>li{
+    float:right;
+    display:block;
+    width:3rem;
+}
+#container010>div>div{
+    margin:5% auto;
+}
+#container010 p{
+    font-size:1.4rem;
+    color:#999;
+}

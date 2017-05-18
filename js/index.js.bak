@@ -1,0 +1,11 @@
+/**
+ * Created by 军秋 on 2017/4/30.
+ */
+//给+6
+    $('#tabs').children().children().click( function(e){
+        e.preventDefault();
+        var ID = $(this).attr("href");
+        console.log(ID);
+		$('ID').sibling().removeClass("show").addClass("hide");
+        $('ID').addClass("show");
+    });
